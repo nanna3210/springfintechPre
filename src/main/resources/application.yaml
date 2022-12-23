@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+#demo:
+#  sentence:
+demo:
+  sentence : this is the sentence from nanna properties
