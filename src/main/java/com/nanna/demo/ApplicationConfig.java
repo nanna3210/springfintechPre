@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class ApplicationConfig {
     
     
-    
+//    declaring bean
     @Bean
     public  BookRepository bookRepository () {
         return new BookRepository ();
