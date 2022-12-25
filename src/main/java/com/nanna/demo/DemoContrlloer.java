@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoContrlloer {
     
-    
+//    controller class
     private static  String SENTENCE = "Hello World ";
     private final String propertySentence;
     
