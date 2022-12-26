@@ -9,6 +9,7 @@ public class LibraryService {
     private BookRepository bookRepository;
     private BookService bookService;
 //    autowired annotation
+//    constructor dependency injection
     @Autowired
     public LibraryService ( BookRepository bookRepository , BookService bookService ) {
         this.bookRepository = bookRepository;
