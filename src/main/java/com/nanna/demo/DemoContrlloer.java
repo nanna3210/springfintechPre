@@ -15,12 +15,15 @@ public class DemoContrlloer {
     private static  String SENTENCE = "Hello World ";
     private final String propertySentence;
     
+//
+    
     @Autowired
     public DemoContrlloer ( @Value ( "${demo.sentence}" ) String propertySentence) {
     
         this.propertySentence = propertySentence;
     
     }
+//    mapping to hello path
     
     @RequestMapping (value = "/hello", method = RequestMethod.GET)
     public String helloWorld() {
